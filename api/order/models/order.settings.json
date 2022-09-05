@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invoice_number": {
+      "type": "string"
+    },
+    "package_id": {
+      "type": "text"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "package_test_id": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_details",
+  "info": {
+    "name": "order_detail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order_id": {
+      "type": "biginteger"
+    },
+    "travel_package_id": {
+      "type": "biginteger"
+    },
+    "total_price": {
+      "type": "biginteger"
+    }
+  }
+}
